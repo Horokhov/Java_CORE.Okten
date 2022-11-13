@@ -1,5 +1,7 @@
 package main;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
     User user=new User(
@@ -14,5 +16,14 @@ public class Main {
        User_2 user_2=new User_2(1,1,"id labore ex et quam laborum","Eliseo@gardner.biz","laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium");
        user_2.setName("Max");
        System.out.println(user_2);
+
+        ArrayList<String> skillList=new ArrayList<>();
+        skillList.add("Java");
+        skillList.add("Python");
+        skillList.add("Ruby");
+        User_beta user_beta= new User_beta(1, "Max", skillList);
+
+       user_beta.getSkills().add("HTML");
+       System.out.println(user_beta);
     }
 }
