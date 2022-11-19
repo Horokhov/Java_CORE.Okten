@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01fa9fa2-009a-4c37-8c5c-232893c4ce1f" name="Changes" comment="MasterWithLombok" />
+    <list default="true" id="01fa9fa2-009a-4c37-8c5c-232893c4ce1f" name="Changes" comment="Lesson_1W">
+      <change afterPath="$PROJECT_DIR$/src/main/Address_composition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Company_agregation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Geo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +95,7 @@
       <workItem from="1668288093526" duration="2088000" />
       <workItem from="1668359830646" duration="1004000" />
       <workItem from="1668360904493" duration="3025000" />
+      <workItem from="1668887434456" duration="4260000" />
     </task>
     <task id="LOCAL-00001" summary="MasterWithLombok">
       <created>1668289087243</created>
@@ -96,7 +104,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668289087243</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson_1W">
+      <created>1668809127568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668809127568</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lesson_1W">
+      <created>1668809133309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668809133310</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lesson_1W">
+      <created>1668809191306</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668809191306</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Master with Lombok" />
     <MESSAGE value="MasterWithLombok" />
-    <option name="LAST_COMMIT_MESSAGE" value="MasterWithLombok" />
+    <MESSAGE value="Lesson_1W" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson_1W" />
   </component>
 </project>
