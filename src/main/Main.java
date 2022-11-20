@@ -4,26 +4,11 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-    User user=new User(
-            1,
-            1,
-            "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto");
-        user.setUserId(2);
-       System.out.println(user.getUserId());
-       System.out.println(user);
-
-       User_2 user_2=new User_2(1,1,"id labore ex et quam laborum","Eliseo@gardner.biz","laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium");
-       user_2.setName("Max");
-       System.out.println(user_2);
-
-        ArrayList<String> skillList=new ArrayList<>();
-        skillList.add("Java");
-        skillList.add("Python");
-        skillList.add("Ruby");
-        User_beta user_beta= new User_beta(1, "Max", skillList);
-
-       user_beta.getSkills().add("HTML");
-       System.out.println(user_beta);
+        PC pc=new PC("mouse","16 inches","setup","drivers");
+        Laptop laptop=new Laptop("alcaine","Jabko");
+        Ultrabook ultrabook=new Ultrabook(30,25000);
+        PC pc1=new Laptop("mouse","16 inches","setup","drivers","alcaine","Jabko");
+        Workstation workstation=new Workstation(5);
+       System.out.println(pc);
     }
 }

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01fa9fa2-009a-4c37-8c5c-232893c4ce1f" name="Changes" comment="MasterWithLombok">
-      <change afterPath="$PROJECT_DIR$/src/main/User_beta.java" afterDir="false" />
+    <list default="true" id="01fa9fa2-009a-4c37-8c5c-232893c4ce1f" name="Changes" comment="Lesson_2.1">
+      <change afterPath="$PROJECT_DIR$/src/main/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Ultrabook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Workstation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/secondary/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/User_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/User_beta.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lesson_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,18 +47,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IntelliJ IDEA 2022.1.3/ProjectJava/libs/lombok.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IntelliJ IDEA 2022.1.3/ProjectJava/libs/lombok.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "duplicates.index"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IntelliJ IDEA 2022.1.3\ProjectJava\libs" />
@@ -90,6 +97,7 @@
       <workItem from="1668288093526" duration="2088000" />
       <workItem from="1668359830646" duration="1004000" />
       <workItem from="1668360904493" duration="3025000" />
+      <workItem from="1668977207347" duration="6324000" />
     </task>
     <task id="LOCAL-00001" summary="MasterWithLombok">
       <created>1668289087243</created>
