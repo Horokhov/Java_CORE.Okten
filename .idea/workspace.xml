@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/additional/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additional/Comments.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/additional/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additional/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additional/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/additional/Posts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1669124056635" duration="1195000" />
       <workItem from="1669139800064" duration="738000" />
       <workItem from="1669142877356" duration="178000" />
-      <workItem from="1669150023590" duration="1405000" />
+      <workItem from="1669150023590" duration="7641000" />
     </task>
     <task id="LOCAL-00001" summary="MasterWithLombok">
       <created>1668289087243</created>
@@ -140,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669049353972</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson_2.1">
+      <created>1669151496714</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669151496714</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

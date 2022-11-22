@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.awt.image.AreaAveragingScaleFilter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +15,8 @@ public class Comments {
     private int id;
     private String title;
     private String body;
+
+    private String comment;
 
     public Comments(int userId, int id, String title, String body) {
         this.userId = userId;
