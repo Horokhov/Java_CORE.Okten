@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
 public class Posts {
     private int postId;
@@ -16,10 +15,18 @@ public class Posts {
     private String name;
     private String email;
     private String body;
+
+    public Posts(int postId, int id, String name, String email, String body) {
+        this.postId = postId;
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.body = body;
+    }
 }
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 class Post {
-    private List<Posts> post=new ArrayList<>();
+    private ArrayList<Posts> post=new ArrayList<>();
 }
