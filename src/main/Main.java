@@ -4,26 +4,12 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-    User user=new User(
-            1,
-            1,
-            "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto");
-        user.setUserId(2);
-       System.out.println(user.getUserId());
-       System.out.println(user);
+        Printable book1=new Book("Edgar","Poem");
+        Printable book2=new Book("Ethan","Ludwig");
+        Printable magazine1=new Magazine("Lethal","Tempo");
+        Printable magazine2=new Magazine("Guide","Anxious");
 
-       User_2 user_2=new User_2(1,1,"id labore ex et quam laborum","Eliseo@gardner.biz","laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium");
-       user_2.setName("Max");
-       System.out.println(user_2);
 
-        ArrayList<String> skillList=new ArrayList<>();
-        skillList.add("Java");
-        skillList.add("Python");
-        skillList.add("Ruby");
-        User_beta user_beta= new User_beta(1, "Max", skillList);
 
-       user_beta.getSkills().add("HTML");
-       System.out.println(user_beta);
     }
 }

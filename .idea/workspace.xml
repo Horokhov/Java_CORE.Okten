@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01fa9fa2-009a-4c37-8c5c-232893c4ce1f" name="Changes" comment="MasterWithLombok">
-      <change afterPath="$PROJECT_DIR$/src/main/User_beta.java" afterDir="false" />
+    <list default="true" id="01fa9fa2-009a-4c37-8c5c-232893c4ce1f" name="Changes" comment="Lesson_2.1">
+      <change afterPath="$PROJECT_DIR$/src/main/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Printable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
@@ -14,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -21,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lesson_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,6 +93,8 @@
       <workItem from="1668288093526" duration="2088000" />
       <workItem from="1668359830646" duration="1004000" />
       <workItem from="1668360904493" duration="3025000" />
+      <workItem from="1669240643302" duration="1457000" />
+      <workItem from="1669242333040" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="MasterWithLombok">
       <created>1668289087243</created>
@@ -98,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668289087243</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson_2.1">
+      <created>1669158407645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669158407645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Master with Lombok" />
     <MESSAGE value="MasterWithLombok" />
-    <option name="LAST_COMMIT_MESSAGE" value="MasterWithLombok" />
+    <MESSAGE value="Lesson_2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson_2.1" />
   </component>
 </project>
