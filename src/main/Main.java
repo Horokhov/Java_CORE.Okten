@@ -10,7 +10,5 @@ public class Main {
         collection.add(new Magazine("Lethal","Tempo"));
         collection.add(new Magazine("Guide","Anxious"));
         System.out.println(collection);
-
-
     }
 }

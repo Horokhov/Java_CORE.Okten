@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01fa9fa2-009a-4c37-8c5c-232893c4ce1f" name="Changes" comment="Lesson_3">
+      <change afterPath="$PROJECT_DIR$/src/sesondary/Drums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sesondary/Guitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sesondary/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sesondary/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sesondary/Tuba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +62,7 @@
       <recent name="D:\IntelliJ IDEA 2022.1.3\ProjectJava\libs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.sesondary.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="ProjectJava" />
@@ -70,8 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sesondary.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sesondary.Main" />
+      <module name="ProjectJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sesondary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sesondary.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -90,7 +110,8 @@
       <workItem from="1668359830646" duration="1004000" />
       <workItem from="1668360904493" duration="3025000" />
       <workItem from="1669240643302" duration="1457000" />
-      <workItem from="1669242333040" duration="938000" />
+      <workItem from="1669242333040" duration="1093000" />
+      <workItem from="1669247431255" duration="2274000" />
     </task>
     <task id="LOCAL-00001" summary="MasterWithLombok">
       <created>1668289087243</created>
@@ -113,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669242982344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson_3">
+      <created>1669243421596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669243421596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
