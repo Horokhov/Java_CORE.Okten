@@ -1,29 +1,24 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-    User user=new User(
-            1,
-            1,
-            "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto");
-        user.setUserId(2);
-       System.out.println(user.getUserId());
-       System.out.println(user);
+        List<User> users=new ArrayList<>();
+        users.add(new User(15,"John"));
+        users.add(new User(16,"Max"));
+        users.add(new User(18,"Maria"));
+        users.add(new User(19,"Alex"));
+        users.add(new User(20,"Dorota"));
+        users.add(new User(17,"Bershka"));
+        users.add(new User(66,"Gwen"));
+        users.add(new User(55,"Vasya"));
+        users.add(new User(44,"Lombok"));
+        users.add(new User(1,"LombokJR"));
 
-       User_2 user_2=new User_2(1,1,"id labore ex et quam laborum","Eliseo@gardner.biz","laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium");
-       user_2.setName("Max");
-       System.out.println(user_2);
-
-        ArrayList<String> skillList=new ArrayList<>();
-        skillList.add("Java");
-        skillList.add("Python");
-        skillList.add("Ruby");
-        User_beta user_beta= new User_beta(1, "Max", skillList);
-
-       user_beta.getSkills().add("HTML");
-       System.out.println(user_beta);
+       users.sort((o1, o2) -> o1.getAge()- o2.getAge());
+       System.out.println(users);
     }
 }
