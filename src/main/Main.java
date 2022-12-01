@@ -20,5 +20,6 @@ public class Main {
 
        users.sort((o1, o2) -> o1.getAge()- o2.getAge());
        System.out.println(users);
+
     }
 }
