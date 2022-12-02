@@ -9,19 +9,17 @@ public class Main {
             //1) додати учасника в клуб;
             public void newPerson(Person person) {
                 map.put(new Person(1,"Max","Dr"), null);
+                map.put(new Person(2,"Artem","Dr"), null);
+                map.put(new Person(3,"Arnold","Dr"), null);
+                map.put(new Person(4,"Lex","Dr"), null);
             }
             //2) додати тваринку до учасника клубу.
-            public void newPet(Person personId,Pet pet){
-                Set<Map.Entry<Person, List<Pet>>> entrySet = map.entrySet();
-                Iterator<Map.Entry<Person, List<Pet>>> iterator= entrySet.iterator();
-                while (iterator.hasNext()) {
-                    Map.Entry<Person, List<Pet>> next =  iterator.next();
-                    if (next.getKey().getId() == personId.getId()) {
-                        next.setValue((List<Pet>) new Pet(1,"Bob",3));
-
-                    }
-                }
+            public void newPet(Person person,Pet pet){
+                List<Pet> pets=map.get(person);
+                pets.add(pet);
             }
+
+
 //3) видалити тваринку з власника.
         public void removePet(int personId, Pet pet ) {
                 Set<Person> people=map.keySet();
@@ -49,6 +47,9 @@ public class Main {
                 });
             }
 // 6) вивести на екран зооклуб.
+            public void print() {
+                System.out.println(this.map);
+            }
         }
     }
 }
