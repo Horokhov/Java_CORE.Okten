@@ -32,11 +32,22 @@ public class Main {
                 }
             }
         }
+
+            public void ExactPetRemove(Pet pet) {
+                map.get(pet).removeIf(p->p.getName().equals("Bob"));
+            }
 //4) видалити учасника клубу.
             public void removePerson(Person person) {
                 map.get(person).removeIf(p->p.equals(person));
             }
 //5) видалити конкретну тваринку з усіх власників.
+            public void petDelete(Pet pet) {
+                Set<Map.Entry<Person, List<Pet>>> entrySet = map.entrySet();
+                entrySet.forEach(personListEntry -> {
+                    List<Pet> pets=personListEntry.getValue();
+                    pets.removeIf(p->p.equals(pet));
+                });
+            }
 // 6) вивести на екран зооклуб.
         }
     }
