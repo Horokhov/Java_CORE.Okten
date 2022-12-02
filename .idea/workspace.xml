@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01fa9fa2-009a-4c37-8c5c-232893c4ce1f" name="Changes" comment="Lesson_3">
+    <list default="true" id="01fa9fa2-009a-4c37-8c5c-232893c4ce1f" name="Changes" comment="Lesson_4">
+      <change afterPath="$PROJECT_DIR$/src/second/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/User_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/User_beta.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
       <recent name="D:\IntelliJ IDEA 2022.1.3\ProjectJava\libs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.third.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="ProjectJava" />
@@ -73,8 +75,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="second.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second.Main" />
+      <module name="ProjectJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="third.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third.Main" />
+      <module name="ProjectJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="third.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.third.Main" />
+        <item itemvalue="Application.second.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -92,6 +122,7 @@
       <workItem from="1668288093526" duration="2088000" />
       <workItem from="1668359830646" duration="1004000" />
       <workItem from="1668360904493" duration="3025000" />
+      <workItem from="1669937813429" duration="7322000" />
     </task>
     <task id="LOCAL-00001" summary="MasterWithLombok">
       <created>1668289087243</created>
@@ -100,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668289087243</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson_4">
+      <created>1669929490713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669929490713</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lesson_4">
+      <created>1669929632336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669929632336</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +165,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Master with Lombok" />
     <MESSAGE value="MasterWithLombok" />
-    <option name="LAST_COMMIT_MESSAGE" value="MasterWithLombok" />
+    <MESSAGE value="Lesson_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson_4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/third/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

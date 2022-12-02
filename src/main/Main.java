@@ -20,6 +20,11 @@ public class Main {
 
        users.sort((o1, o2) -> o1.getAge()- o2.getAge());
        System.out.println(users);
-
+       users.sort((o1, o2) -> o2.getAge()- o1.getAge());
+       System.out.println(users);
+       users.sort((o1, o2) -> o2.getName().length()- o1.getName().length());
+       System.out.println(users);
+       users.sort((o1, o2) -> o1.getName().length()- o2.getName().length());
+       System.out.println(users);
     }
 }
